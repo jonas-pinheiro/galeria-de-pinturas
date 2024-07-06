@@ -1,0 +1,46 @@
+body {
+    font-family: "Public Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery .painting {
+    width: 320px;
+    height: 431px;
+    position: relative;
+}
+
+.gallery .painting img {
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+.artist {
+    font-size: 17px;
+    font-weight: 300;
+    color: #FFFFFF;
+
+}
+
+.informations {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
